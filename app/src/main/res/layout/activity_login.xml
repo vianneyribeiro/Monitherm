@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vectorblue"
+    tools:context="com.example.vianneyribeiro.monitherm.LoginActivity">
+
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitoramento de Temperatura Para Ambientes"
+       />
+
+    <EditText
+
+        android:id="@+id/emailEdt"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:id="@+id/passEdt"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_gravity="right"
+        android:text="Entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:onClick="logar"
+        />
+
+
+</LinearLayout>

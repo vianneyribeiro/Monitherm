@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1091066855202",
+    "firebase_url": "https://monitherm.firebaseio.com",
+    "project_id": "monitherm",
+    "storage_bucket": "monitherm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091066855202:android:11617b39666e6f15",
+        "android_client_info": {
+          "package_name": "com.example.vianneyribeiro.monitherm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091066855202-9ku1m3rv0oihtcps51qas5mrpr74nn5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vianneyribeiro.monitherm",
+            "certificate_hash": "37ac40a0e3a312584eba35454123f9b9630e3966"
+          }
+        },
+        {
+          "client_id": "1091066855202-7ih0lms4d9ia6l9sqgbtpqg1siapd555.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe3DOqnPLqnSmKyUtAFUsVB4Da0BEPcy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091066855202-7ih0lms4d9ia6l9sqgbtpqg1siapd555.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
